@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 350px;
+  position: relative;
+  top: 150px;
+  left: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.center {
+  position: relative;
+  top: 100px;
+  left: 80px;
+}
+h1{
+ position: absolute;
+  top: 130px;
+ left: 200px;
+color:white;
+text-align:center;
+color:white;
+font-family:Arial;
+}
+
+.content {
+  max-width: 400px;
+  margin: auto;
+ background-color:EE82EE ;
+  padding: 50px; 
+  text-align:center;
+  font-family:Cambria;
+  font-size:30px;
+}
+
+ input{
+    font-size:20px;
+    
+}
+ ::placeholder{
+  color:white;
+  background-color:black;
+  font-family:Arial;
+  padding:10px;
+  
+}
+a{
+    text-decoration: none;
+}
+.content button{
+ background-color:blue;
+}
+button{
+ background-color:#bbb;;
+}
+</style>
+</head>
+<body>
+<div class="row">
+  <div class="column" style="background-color:black";>
+  <h1>LOGIN</h1>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <div class="content">
+   <form action="policies.html" method="get"  name="login" class="container">
+    <br>
+      <input type="email" placeholder="EMAIL" name="email" required/><br><br>
+      <input type="password"  placeholder="PASSWORD" name="password" required/><br><br>
+      <button class="button-block" type="submit" name="submit"><a href="policies.html"><font  size="5" color="black">SUBMIT</a></button>                   
+    </form>
+</div>
+  </div>
+</div>
+</body>
+</html>

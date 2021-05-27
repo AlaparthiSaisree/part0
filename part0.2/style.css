@@ -1,0 +1,52 @@
+body{ /** This is about displaying webpage */
+    background :deeppink;
+    color:darkblue;
+    font-size:20px;
+    
+}
+
+a{/** This is about displaying webpage */
+    color:blue;
+    text-decoration: none;
+    font-size:25px;
+}
+
+a:hover{/** This is about customising Links */
+    color: black;
+    background:white;
+    font-size:25px;
+}
+
+.greenlink:hover{/** This is about layout control */
+    color:green;
+    background:gray;
+}
+
+h1{ /** This is about Fonts */
+    font-family:serif;
+    font-size:24pt;
+}
+
+.indent{/** This is about layout control */
+    margin-left:10px;
+}
+
+.gap_below{/** This is about layout control */
+    margin-bottom:25px;
+}
+
+@media(min-width:750px){/** This is about layout control - css media queries */
+    .responsive{
+        display:inline-block;
+        width:200px;
+        border:1px solid black;
+    }
+}
+@media(min-width:1000px){/** This is about layout control - css media queries*/
+    .responsive{
+        display:inline-block;
+        width:500px;
+        border:1px solid  black;
+    }
+}
+
